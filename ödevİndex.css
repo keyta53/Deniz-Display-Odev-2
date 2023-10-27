@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+
+.container {
+    width: 1000px;
+    height: 1200px;
+    border: 5px solid #009bde;
+    margin: 30PX auto;
+    padding: 10PX;
+    background-color: #f5f1f1;
+    border-radius: 10px 10PX 10px;
+}
+
+.button {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 2%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #009bde;
+    background-color: #ffffff;
+    border: 5px solid #009bde;
+    margin-left: 25%;
+
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #009bde;
+    border: 3px solid #009bde;
+}
+
+.sosyal-medya ul {
+
+    display: inline-flex;
+    list-style-type: none;
+    color: #009bde;
+    gap: 90px;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 3%;
+    
+}
+.sosyal-medya li i {
+    transition: all ease-in-out 260ms;   
+}
+.sosyal-medya li i:hover {
+    color: #017bb0;
+
+}.resim img{
+    width: 750px;
+    height: 650px;
+    margin: 3% 0% 0%;
+    margin-left: 12%;
+    padding: 03px;
+    border-radius: 10px 10PX 10px;
+    border: 5px solid #009bde;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.icerik{
+    
+    width: 760px;
+    margin-left: 12%;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 3%;   
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+  
+}
